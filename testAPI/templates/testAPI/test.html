@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="{% static 'js/test.js' %}"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    Create:
+    <ul>
+        <li> Name: <input type="text" id="create_name"></li>
+        <li> Parent: <input type="text" id="create_parent"></li>
+        <button onclick="create_classifier()">Create</button>
+    </ul>
+    Create Root:
+    <ul>
+        <li> Name: <input type="text" id="create_root_name"></li>
+        <button onclick="create_root_classifier()">Create Root</button>
+    </ul>
+    Update Path:
+    <ul>
+        <li> Name: <input type="text" id="update_name"></li>
+        <li> Parent: <input type="text" id="update_parent"></li>
+        <li> New Parent: <input type="text" id="update_new_parent"></li>
+        <button onclick="update_path_classifier()">UpdatePath</button>
+    </ul>
+    Update Name:
+    <ul>
+        <li> Name: <input type="text" id="name"></li>
+        <li> Parent: <input type="text" id="parent"></li>
+        <li> New Name: <input type="text" id="new_name"></li>
+        <button onclick="update_name_classifier()">UpdateName</button>
+    </ul>
+    Delete:
+    <ul>
+        <li> Name: <input type="text" id="delete_name"></li>
+        <li> Parent: <input type="text" id="delete_parent"></li>
+        <button onclick="delete_classifier()">Delete</button>
+    </ul>
+
+    Tree:
+    <ul class="tree">
+
+    </ul>
+</body>
+</html>

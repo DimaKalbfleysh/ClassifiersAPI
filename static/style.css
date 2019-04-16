@@ -1,0 +1,26 @@
+ul.tree {
+  list-style-type: none;
+  position: relative;
+}
+.active {
+  background-color: lightgrey;
+}
+.state {
+  position: absolute;
+  left: 1em;
+}
+.collapse > .state::after {
+  content: '+';
+}
+.expand > .state::after {
+  content: '-';
+}
+.collapse > ul {
+  display: none;
+}
+.expand > ul {
+  display: block;
+}
+.item {
+  cursor: pointer;
+  }

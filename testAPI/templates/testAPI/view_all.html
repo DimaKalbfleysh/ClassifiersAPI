@@ -1,0 +1,10 @@
+{% extends 'testAPI/test.html' %}
+{% load mptt_tags %}
+
+{% block classifier %}
+    <ul>
+        <li>{{ root }}</li>
+        {{ json|unordered_list }}
+    </ul>
+
+{% endblock %}

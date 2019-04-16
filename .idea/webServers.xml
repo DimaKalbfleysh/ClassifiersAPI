@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b29a0711-cfc5-47c7-99cb-4f24296ae9ac" name="API" url="http://80-78-248-159.ovz.vps.regruhosting.ru">
+        <fileTransfer host="80-78-248-159.ovz.vps.regruhosting.ru" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="03a6b6bf-47ef-4962-b978-7dda37abffb7" name="API2" url="http://ovz1.kalbfleysh.znog6.vps.myjino.ru">
+        <fileTransfer host="ovz1.kalbfleysh.znog6.vps.myjino.ru" port="49181" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="49181" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ee59570e-3882-405f-acd3-81adf6432b8f" name="API3" url="http://ovz2.kalbfleysh.n461m.vps.myjino.ru">
+        <fileTransfer host="ovz2.kalbfleysh.n461m.vps.myjino.ru" port="49293" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="49293" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="464b6dbc-f78f-44f4-afdd-63a7f2bc6a67" name="API4" url="http://kvm1.kalbfleysh.n5zdn.vps.myjino.ru">
+        <fileTransfer host="kvm1.kalbfleysh.n5zdn.vps.myjino.ru" port="49307" rootFolder="/root" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="49307" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
